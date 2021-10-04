@@ -16,7 +16,14 @@
   },
   "dependencies": {
     "gatsby": "^3.13.1",
+    "gatsby-plugin-gatsby-cloud": "^3.2.0",
+    "gatsby-plugin-image": "^1.14.0",
+    "gatsby-plugin-sharp": "^3.14.0",
+    "gatsby-source-filesystem": "^3.14.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "acorn": "^8.5.0"
   }
 }
