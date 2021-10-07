@@ -4,8 +4,10 @@ module.exports = {
 		title: "My Gatsby Site",
 	},
 	plugins: [
+		"gatsby-plugin-gatsby-cloud",
 		"gatsby-plugin-image",
 		"gatsby-plugin-sharp",
+		"gatsby-transformer-sharp",
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {
@@ -14,6 +16,5 @@ module.exports = {
 			},
 		},
 		"gatsby-plugin-mdx",
-		"gatsby-transformer-sharp",
 	],
 };
