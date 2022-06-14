@@ -10,7 +10,7 @@ const HomePage = () => {
 			</p>
 
 			<StaticImage
-				alt="Clifford, a reddish-brown pitbull, dozing in a bean bag chair"
+				alt="My photoshop Design"
 				src="../images/design.jpg"
 			/>
 		</Layout>
